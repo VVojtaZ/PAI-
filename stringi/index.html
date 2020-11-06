@@ -56,9 +56,14 @@
     const text11 = text2.substr("Ala".length); //wypisuje tylko fragment bez podanego tekstu
     console.log(text11); 
 
-    console.log(text2.substring(1, 4)); //
-    console.log(text2.substring(2)); //"
-    console.log("Ala ma kota".substring(5, 2)); //
+    console.log(text2.substring(1, 4)); //zwracanie kawałka tekstu między konkretnymi miejscami, z wyłaczeniem tego co w nawiasie
+    console.log(text2.substring(2)); //zwracanie kawałka tekstu od konkretnego miejsca, z wyłaczeniem tego co w nawiasie
+    console.log("Ala ma kota".substring(5, 2)); //zwracanie kawałka tekstu (jeśli pierwszy parametr większy od drugiego to je zamienia miejscami)
+
+    const text12 = text2.slice(1,5); //zwracanie kawałka tekstu między konkretnymi miejscami, z wyłaczeniem tego co pierwsze w nawiasie. Gdy pierwszy parametr większy od drugiego, to go nie zamienia
+    console.log(text12);
+
+    
 
     </script>
 </body>
