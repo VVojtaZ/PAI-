@@ -71,7 +71,17 @@
     const text15 = text.replace(/ma/g, "nie ma"); //zamiana każdego słowa ma
     console.log(text15);
 
-    console.log(text2.repeat(3));
+    console.log(text2.repeat(3)); //powtórzenie całego tekstu 3 razy
+
+    for (let i=0; i<text2.length; i++) { //pętla zwracająca każdy znak po kolei
+    console.log(text2[i]);
+    }
+
+    console.log("------------------");
+
+    for (const cos of text2) { //pętla zwracająca każdy znak po kolei
+    console.log(cos);
+    }
 
     </script>
 </body>
