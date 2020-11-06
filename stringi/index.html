@@ -36,12 +36,14 @@
     console.log(text5.toUpperCase()); //Zamiana na wielkie litery
     console.log(text5.toLowerCase()); //Zamiana na małe litery
 
-    text6="Ala ma kota".indexOf("a"); //pozycja danego fragmentu tekstu (jeśli występuje parę razy to wskazuje na ten pierwszy) zapisana jako liczba, jeśli pokaże się liczba -1 to oznacza, że szukanego tekstu nie ma
+    const text6="Ala ma kota".indexOf("a"); //pozycja danego fragmentu tekstu (jeśli występuje parę razy to wskazuje na ten pierwszy) zapisana jako liczba, jeśli pokaże się liczba -1 to oznacza, że szukanego tekstu nie ma
     console.log(text6);
 
-    text7=text2.lastIndexOf("a"); //pozycja danego fragmentu tekstu (jeśli występuje parę razy to wskazuje na ostatni)
+    const text7=text2.lastIndexOf("a"); //pozycja danego fragmentu tekstu (jeśli występuje parę razy to wskazuje na ostatni)
     console.log(text7); 
 
+    const text8=text2.includes("tofik"); //sprawdzanie, czy istnieje dany fragment tekstu (podaje true albo false)
+    console.log(text8);
     </script>
 </body>
 </html>
